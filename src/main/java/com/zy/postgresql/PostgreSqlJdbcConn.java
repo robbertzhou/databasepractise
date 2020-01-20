@@ -3,6 +3,12 @@ package com.zy.postgresql;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
+/**
+ * @create 2020-01-20
+ * @author zhouyu
+ * @desc 验证postgres的连接。
+ *
+ */
 public class PostgreSqlJdbcConn {
     public static void main(String args[]) {
         Connection c = null;
